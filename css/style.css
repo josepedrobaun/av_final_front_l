@@ -1,0 +1,42 @@
+/*CSS GLOBAL*/
+* {
+    margin: 0px auto;
+    padding: 0;
+}
+
+header {
+    width: 30%;
+    background-color: aqua;
+}
+
+body {
+    height: 100%;
+    background-color: aliceblue;
+}
+.menu {
+    text-align: center;
+    background-color: red;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*CSS INDEX*/
+.body-profile {
+    width: 70%;
+    padding-left: 30px;
+    background-color: blue;
+}
+
+.personal-information {
+    background-color: green;
+}
+
