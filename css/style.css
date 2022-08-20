@@ -5,22 +5,23 @@
 }
 
 header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
     width: 30%;
     background-color: aqua;
 }
 
 body {
-    height: 100%;
-    background-color: aliceblue;
+    min-height: 100%;
 }
+
 .menu {
     text-align: center;
-    background-color: red;
 }
 
 main {
     display: flex;
-    align-items: center;
 }
 
 ul {
@@ -29,14 +30,25 @@ ul {
     padding: 0;
   }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 15px;    
+}
+
 /*CSS INDEX*/
 .body-profile {
+    height: 100vh;
+    display: flex;
+    align-items: center;
     width: 70%;
     padding-left: 30px;
-    background-color: blue;
 }
 
 .personal-information {
+    text-align: left;
     background-color: green;
 }
 
