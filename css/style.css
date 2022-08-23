@@ -5,19 +5,21 @@
 }
 
 header {
-    height: 100vh;
     display: flex;
     align-items: center;
     width: 30%;
-    background-color: aqua;
+    background-color: rgb(36, 34, 170);
 }
 
 body {
-    min-height: 100%;
+    width: 100%;
 }
 
 .menu {
+    display: flex;
+    width: 25%;
     text-align: center;
+    font-family: 'DynaPuff', cursive;
 }
 
 main {
@@ -30,25 +32,78 @@ ul {
     padding: 0;
   }
 
-a {
-    text-decoration: none;
-}
-
 li {
     margin-bottom: 15px;    
 }
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+img {
+    border-radius: 100%;
+    width: 150px;
+}
+
+.circle-icons {
+    padding: 10px; /* espaçamento */
+    font-size: 18px; /* tamanho do icone */
+    width: 18px; /* tamanho do fundo */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px; /* espaçamento entre eles */
+    border-radius: 100%;  
+    background: #ccc; /* cor do fundo */
+    color: #fff; /*cor do icone */
+  
+  }
+  
+  .circle-icons:hover {
+    background: #f0e9e9; /*  cor de fundo com mouse encima */
+    color: #ccc;  /* cor do icone com mouse encima */
+    opacity: 0.9;
+  }
+  
 
 /*CSS INDEX*/
 .body-profile {
     height: 100vh;
     display: flex;
-    align-items: center;
-    width: 70%;
-    padding-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
 }
 
-.personal-information {
-    text-align: left;
-    background-color: green;
+.information {
+    width: 90%;
 }
 
+.icons {
+    margin-top: 40px;
+}
+
+/*CSS CONHECIMENTOS AND OBJETIVOS*/
+.information-know {
+    width: 90%;
+    color: grey;
+    font-size: 38px;
+}
+
+.information-obj {
+    width: 90%;
+    color: grey;
+    font-size: 25px;
+}
